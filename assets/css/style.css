@@ -1,0 +1,102 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Regular.woff);
+  }
+
+@font-face {
+    font-family: audiowide;
+    src: url(../fonts/Audiowide-Regular.woff);
+  }
+
+body {
+    font-family: montserrat;
+    background-color: #101010;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.font-audiowide {
+    font-family: audiowide;
+}
+
+/* font color */
+.text-redart {
+    color: #BC0F00;
+}
+
+.text-whiteart {
+    color: #FCFCFC;
+}
+
+/* font size */
+
+.fh-responsive-85px {
+    @media screen and (min-width : 767.5px) {
+        font-size: 85px;
+    }
+}
+
+.fh-responsive-60px {
+    @media screen and (min-width : 767.5px) {
+        font-size: 60px;
+    }
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+/* background */
+
+.bg-redart {
+    background-color: #BC0F00;
+}
+
+.bg-darkart {
+    background-color: #101010;
+}
+
+/* img */
+
+.overflow-hero {
+    border: 1px solid white;
+    @media screen and (min-width: 1199.5px) {
+        height: 50vh;
+    }
+    @media screen and (max-width: 1199.5px) {
+        height: 34vh;
+    }
+    @media screen and (max-width: 768.5px) {
+        height: auto;
+    }
+}
+
+/* width */
+
+.w-md-50 {
+    @media screen and (min-width: 767.5px) {
+        width: 50%;
+    }
+    @media screen and (max-width: 767.5px) {
+        width: 100%;
+    }
+}
+
+.w-md-80 {
+    @media screen and (min-width: 767.5px) {
+        width: 80%;
+    }
+    @media screen and (max-width: 767.5px) {
+        width: 100%;
+    }
+}
